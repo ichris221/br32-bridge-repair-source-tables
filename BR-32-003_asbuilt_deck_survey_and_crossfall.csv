@@ -1,0 +1,10 @@
+record_id,project_id,span_id,lane_id,repair_zone,station,measurement_type,design_ref_record_id,design_value,asbuilt_value,rise_or_drop_m,lane_width_m,calculated_value,unit,note
+SV-001,BR-32,S1,EB,SV-E1,0+020,deck_elevation,DQ-014,99.72,99.724,,,0.004,m,within elevation tolerance
+SV-002,BR-32,S1,EB,SV-E2,0+044,deck_elevation,DQ-015,99.806,99.82,,,0.014,m,high point exceeds tolerance
+SV-002-DUP,BR-32,S1,EB,SV-E2,0+044,deck_elevation,DQ-015,99.806,99.82,,,0.014,m,duplicate total station export of SV-002
+SV-003,BR-32,S2,WB,SV-E3,0+084,deck_elevation,DQ-016,99.69,99.666,,,-0.024,m,low point exceeds tolerance
+SV-004,BR-32,S2,WB,SV-E4,0+108,deck_elevation,DQ-017,99.765,99.761,,,-0.004,m,within elevation tolerance
+SV-005,BR-32,A1,WB,APP-N-EDGE,0+006,approach_edge_elevation,,,99.432,,,,m,no matching design elevation in source files
+SV-006,BR-32,S1,EB,CF-EB,0+020 to 0+044,crossfall_percent,DQ-018,2.389,,0.104,3.6,2.889,%,field crossfall exceeds 2.50 percent limit
+SV-007,BR-32,S2,WB,CF-WB,0+084 to 0+108,crossfall_percent,DQ-019,2.083,,0.071,3.6,1.972,%,field crossfall within limit
+SV-008,BR-32,S2,EB,CENTER-SPOT,0+096,spot_elevation,,,99.714,,,,m,supplemental deck spot with no design reference

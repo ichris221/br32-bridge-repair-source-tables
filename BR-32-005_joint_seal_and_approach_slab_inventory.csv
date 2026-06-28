@@ -1,0 +1,8 @@
+record_id,project_id,span_id,lane_id,repair_zone,station_start,station_end,pay_item,measurement_type,length_m,width_m,thickness_m,calculated_value,unit,comparison_record_id,note
+AS-001,BR-32,A1,WB,AS-N,0+000,0+012,APPROACH-SLAB,approach_slab_volume,10.2,4.0,0.25,10.2,m3,DQ-005,field length exceeds design
+AS-002,BR-32,A2,EB,AS-S,0+112,0+128,APPROACH-SLAB,approach_slab_volume,8.8,3.9,0.25,8.58,m3,DQ-006,field width below design
+AS-002-DUP,BR-32,A2,EB,AS-S,0+112,0+128,APPROACH-SLAB,approach_slab_volume,8.8,3.9,0.25,8.58,m3,AS-002,duplicate approach slab inventory row
+JS-001,BR-32,S1,EB,JS-01,0+012,0+044,JOINT-SEAL,joint_seal_length,31.8,,,31.8,m,DQ-008,field joint run shorter than design
+JS-002,BR-32,S2,WB,JS-02,0+080,0+112,JOINT-SEAL,joint_seal_length,32.0,,,32.0,m,DQ-009,matches design joint run
+JS-003,BR-32,S1,EB,PC-JOINT,0+044,0+048,JOINT-SEAL,joint_seal_length,,,,,m,,measured_length_m blank in inventory
+TXT-001,BR-32,S1,EB,JS-01,0+012,0+044,TEXT,field_note,sealant bead torn at east curb return,,,,text,,descriptive joint note only

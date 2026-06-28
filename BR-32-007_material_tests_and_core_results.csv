@@ -1,0 +1,8 @@
+record_id,project_id,span_id,lane_id,repair_zone,station_start,station_end,pay_item,test_type,test_report_id,source_value,unit,requirement,requirement_ref,note
+MT-001,BR-32,S1,EB,Z-A,0+012,0+034,DECK-PATCH,compressive_strength_28d,TR-BR32-001,36.2,MPa,>=35.0 MPa,TL-005,meets strength minimum
+MT-002,BR-32,A2,EB,AS-S,0+112,0+128,APPROACH-SLAB,compressive_strength_28d,,34.1,MPa,>=35.0 MPa,TL-005,test_report_id blank and result below minimum
+MT-003,BR-32,S1,WB,Z-B,0+034,0+060,DECK-PATCH,air_content,TR-BR32-003,8.2,%,4.0 to 7.0 percent,TL-006,air content exceeds upper limit
+MT-004,BR-32,S1,EB,AG-01,0+030,0+102,ANCHOR-GROUT,anchor_pullout,TR-BR32-004,60.0,kN,>=55.0 kN,TL-007,meets pullout minimum
+MT-005,BR-32,S2,EB,Z-C,0+060,0+086,CORE-TEST,core_thickness,TR-BR32-005,80.0,mm,>=75.0 mm,TL-008,meets core thickness minimum
+MT-006,BR-32,S2,EB,RBL-03,0+060,0+086,REBAR-DOWEL,mill_certificate,,0.0,text,certificate reference required,TL-009,certificate ID missing for supplemental #20 bar
+MT-001-DUP,BR-32,S1,EB,Z-A,0+012,0+034,DECK-PATCH,compressive_strength_28d,TR-BR32-001,36.2,MPa,>=35.0 MPa,TL-005,duplicate lab export of MT-001

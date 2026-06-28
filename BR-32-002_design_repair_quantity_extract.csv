@@ -1,0 +1,20 @@
+record_id,project_id,span_id,lane_id,repair_zone,station_start,station_end,pay_item,measurement_type,length_m,width_m,area_m2,depth_or_thickness_m,height_m,bar_length_m,unit_mass_kg_per_m,hole_count,hole_volume_m3,source_value,unit,design_ref,note
+DQ-001,BR-32,S1,EB,Z-A,0+012,0+034,DECK-PATCH,deck_patch_volume,,,24.0,0.09,,,,,,2.16,m3,,area x average depth
+DQ-002,BR-32,S1,WB,Z-B,0+034,0+060,DECK-PATCH,deck_patch_volume,,,31.5,0.1,,,,,,3.15,m3,,area x average depth
+DQ-003,BR-32,S2,EB,Z-C,0+060,0+086,DECK-PATCH,deck_patch_volume,,,20.0,0.085,,,,,,1.7,m3,,area x average depth
+DQ-004,BR-32,S2,WB,Z-D,0+086,0+112,DECK-PATCH,deck_patch_volume,,,16.5,0.1,,,,,,1.65,m3,,area x average depth
+DQ-005,BR-32,A1,WB,AS-N,0+000,0+012,APPROACH-SLAB,approach_slab_volume,10.0,4.0,,0.25,,,,,,10.0,m3,,length x width x thickness
+DQ-006,BR-32,A2,EB,AS-S,0+112,0+128,APPROACH-SLAB,approach_slab_volume,8.8,4.0,,0.25,,,,,,8.8,m3,,length x width x thickness
+DQ-007,BR-32,S1,EB,PC-E,0+008,0+120,PARAPET-CURB,parapet_curb_volume,38.0,0.3,,,0.45,,,,,5.13,m3,,length x width x height
+DQ-008,BR-32,S1,EB,JS-01,0+012,0+044,JOINT-SEAL,joint_seal_length,32.0,,,,,,,,,32.0,m,,design joint run
+DQ-009,BR-32,S2,WB,JS-02,0+080,0+112,JOINT-SEAL,joint_seal_length,32.0,,,,,,,,,32.0,m,,design joint run
+DQ-010,BR-32,S1,EB,RBL-01,0+012,0+112,REBAR-DOWEL,rebar_weight,,,,,,420.0,1.58,,,663.6,kg,,bar length x unit mass
+DQ-011,BR-32,A1,WB,RBL-02,0+000,0+012,REBAR-DOWEL,dowel_weight,,,,,,140.0,2.47,,,345.8,kg,,bar length x unit mass
+DQ-012,BR-32,S1,EB,AG-01,0+030,0+102,ANCHOR-GROUT,anchor_grout_volume,,,,,,,,60,0.0012,0.072,m3,,hole count x hole volume
+DQ-013,BR-32,S1-S2,ALL,OV-01,0+012,0+112,OVERLAY,overlay_area,62.0,6.0,,,,,,,,372.0,m2,,length x width
+DQ-014,BR-32,S1,EB,SV-E1,0+020,0+020,ELEV,deck_elevation,,,,,,,,,,99.72,m,,design deck elevation low point
+DQ-015,BR-32,S1,EB,SV-E2,0+044,0+044,ELEV,deck_elevation,,,,,,,,,,99.806,m,,design deck elevation high point
+DQ-016,BR-32,S2,WB,SV-E3,0+084,0+084,ELEV,deck_elevation,,,,,,,,,,99.69,m,,design deck elevation low point
+DQ-017,BR-32,S2,WB,SV-E4,0+108,0+108,ELEV,deck_elevation,,,,,,,,,,99.765,m,,design deck elevation high point
+DQ-018,BR-32,S1,EB,CF-EB,0+020,0+044,CROSSFALL,crossfall_percent,,,,,,,,,,2.389,%,,design drop 0.086 over 3.60 m
+DQ-019,BR-32,S2,WB,CF-WB,0+084,0+108,CROSSFALL,crossfall_percent,,,,,,,,,,2.083,%,,design drop 0.075 over 3.60 m
